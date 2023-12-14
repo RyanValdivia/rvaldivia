@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(15 23 42/1);
+    color: #94a3b8;
+}
+
+section {
+    width: 50%;
+    padding: 50px;
+}
+
+.izq {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.der {
+    margin-left: auto;
+}
+
+h1 {
+    font-weight: 650;
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.icons a {
+    border: 2px solid aliceblue;
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    margin-right: 3px;
+    margin-left: 8px;
+    text-decoration: none;
+    color: #fef5ef;
+}
+
+.icons a:hover {
+    background: aliceblue;
+    color: black;
+    transition: .3s;
+    box-shadow: 0 0 20px aliceblue;
+    border: black;
+
+}
+
+.links a {
+    color: #fef5ef;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.links a:hover {
+    color: #d6e3f8;
+    transform: translateX(30px);
+    transition: .2s;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.box2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.sub {
+    margin-bottom: 15px;
+    color: #fef5ef;
+}
+
+.img {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: solid 1.5px #fef5ef;
+}
+
+p i {
+    font-size: 30px;
+}
+
+.course {
+    align-items: center;
+    justify-content: center;
+    border: 2px aliceblue solid;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.cTitle {
+    color: #fef5ef;
+    text-decoration: none;
+}
+
+.cTitle:hover {
+    color: aquamarine;
+    transition: .5s;
+}
